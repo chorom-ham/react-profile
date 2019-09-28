@@ -1,19 +1,6 @@
-# react-profile
+<h2> props와 state의 차이점 </h2>
 
-## 실행 방법
+props 는 부모 컴포넌트가 자식 컴포넌트에게 주는 값. 
+자식 컴포넌트에서는 props 를 받아오기만하고, 받아온 props 를 직접 수정은 불가.
+반면에 state 는 컴포넌트 내부에서 선언하며 내부에서 값을 변경 가능.
 
-```
-npm install
-npm run start
-```
-
-- npm install : 필요한 모든 패키지를 설치합니다. 처음 1번만 실행하면 됩니다.
-- npm run start : react 어플리케이션을 브라우저에서 실행합니다.
-
-## 미션 설명
-
-[미션 설명](./docs/mission-description/README.md)
-
-## 미션 제출 방법
-
-[미션 제출 방법](./docs/how-to-submit/README.md)
